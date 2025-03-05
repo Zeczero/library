@@ -1,5 +1,1 @@
-n = 2
-if n % 2 == 0:
-    print("hi")
-else:
-    print("n")
+# this library will contain useful methods for communicating with Saldeo API

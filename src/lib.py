@@ -41,6 +41,7 @@ class Saldeo:
             command_encoded = self.saldeo.__gzip_and_base64_encode(data)
             attmt_doc_name  = self.saldeo.__gzip_and_base64_encode(path_to_file, is_file_path=True)
             company_program_id = company_program_id
+            #s
             sig_params = {
                 "company_program_id": company_program_id, 
                 "username": self.saldeo.USERNAME + self.saldeo.TOKEN, 
